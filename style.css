@@ -9,6 +9,7 @@ body {
     border: 3px solid #007bff; /* Blue */
     background: white;
     cursor: pointer;
+    transition: transform 0.1s;
 }
 
 /* MAPPING - Green border */
