@@ -13,7 +13,7 @@ function performAction() {
     status.textContent = `✅ Processed ${count} time${count !== 1 ? 's' : ''}`;
     
     // CONSTRAINT & SIGNIFIER: Apply at limit
-    if (count > 3) {
+    if (count >= 3) {
         btn.disabled = true;
         btn.classList.add('constrained', 'disabled-signifier');
         status.textContent = '⛔ Limit reached (3 clicks max)';
